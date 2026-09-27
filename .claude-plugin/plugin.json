@@ -1,0 +1,5 @@
+{
+  "name": "yahoo-mail-plugin",
+  "version": "0.1.0",
+  "description": "Read, search, and send Yahoo Mail from Claude Code over IMAP/SMTP using a Yahoo App Password."
+}

@@ -11,6 +11,13 @@ requires your explicit confirmation.
 > [BOOTSTRAP.md](https://github.com/rezamt/yahoo-mail-plugin-spec/blob/main/BOOTSTRAP.md)
 > to Claude Code and say *"read BOOTSTRAP.md and set up my environment"*.
 
+## Setup
+
+The server reads two required environment variables once at startup and never logs them:
+
+- `YAHOO_ACCOUNT_EMAIL` — your Yahoo account address
+- `YAHOO_APP_PASSWORD` — a Yahoo App Password (2FA-based; not your regular account password)
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
